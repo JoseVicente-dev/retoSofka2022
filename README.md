@@ -1,3 +1,6 @@
+# retoSofka2022
+Reporsitorio para resolver el reto técnico de Sofka de dic de 2021
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
