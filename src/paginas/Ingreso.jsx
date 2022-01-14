@@ -12,10 +12,10 @@ const Ingreso = () => {
         <div>
             <Header/>
 
-            <div>
+            <div className='borde'>
                 <h3>Datos del jugador</h3>
             </div>
-            <form className='abs-center display-flex mb-3'>
+            <form className='borde abs-center display-flex mb-3'>
                 
                 <input className='mb-3' required type='text' placeholder='Tu numero de identificación' name='identificacion'/>
                 <input className='mb-3' required type='text' placeholder='Tus nombres' name='nombres'/>
