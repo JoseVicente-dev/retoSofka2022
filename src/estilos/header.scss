@@ -1,33 +1,31 @@
 @import  "./colors.scss";
+@import './variables.scss';
+
+.borde{
+    border:1px solid red;
+}
 
 .header {
     background-color: $color3;
     height: 10vh;
+    min-height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header .logo{
-    margin: 1% 1%;
-    max-height: 90%;
-}
 
-.header .title{
-    font-family: 'Vesper Libre', serif;
-    font-size: x-large;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: $color0;
-    margin-right: 2%;
-}
-
-.display-flex-center{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.borde{
-    border:1px solid red;
+    .logo{
+        margin: 1% 5%;
+        max-height: 9vh;
+        min-height: 80px;
+    }
+    
+    .title{
+        font-family: $font;
+        font-size: xx-large;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $color0;
+        margin-right: 2%;
+        margin-left: 3%;
+    }
 }

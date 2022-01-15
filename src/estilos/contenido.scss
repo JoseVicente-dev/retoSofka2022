@@ -1,0 +1,17 @@
+@import  "./colors.scss";
+@import './variables.scss';
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedor .registro form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor .logo{
+    margin:5%;
+}
