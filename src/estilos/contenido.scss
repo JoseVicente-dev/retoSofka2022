@@ -5,14 +5,69 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-family: $font;
+    color:$color3;
+}
+
+.contenedor .registro{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 60vh;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: center;
+    border-radius: 3%;
+    border-color: $color2;
+    border-width: 2px;
+    background-color: $color1;
+    
 }
 
 .contenedor .registro form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width:70%
+    
+}
+
+.contenedor form input{
+    font-family: $font;
+    border-radius: 5px;
+    margin:5px 0px;
+    width:100%;
+    background-color: $color0;
+}
+
+.contenedor form button{
+    background-color: $color2;
+    color: white;
+    font-family: $font;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 2px 2px $color3;
 }
 
 .contenedor .logo{
-    margin:5%;
+    width: 35%;
+    margin-bottom: 5px;
+    
+
 }
 
+/*Codigo que borra las flechas de selección del input type='number'*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/*Codigo que borra las flechas de selección del input type='number'*/
